@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="no_hp">No.hp</string>
+    <string name="alamat">Alamat</string>
+    <string name="nama">Nama</string>
+    <string name="simpan">Simpan</string>
+    <string name="secondactivity">Second Activity</string>
+</resources>
