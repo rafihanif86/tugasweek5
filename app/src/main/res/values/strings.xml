@@ -5,4 +5,11 @@
     <string name="nama">Nama</string>
     <string name="simpan">Simpan</string>
     <string name="secondactivity">Second Activity</string>
+    <string name="data_diri">Data Diri</string>
+    <string name="nama_hd">Nama</string>
+    <string name="nama_ms">TextView</string>
+    <string name="alamat_hd">Alamat</string>
+    <string name="alamat_ms">TextView</string>
+    <string name="no_hp_hd">No. Hp</string>
+    <string name="nohp_ms">TextView</string>
 </resources>
