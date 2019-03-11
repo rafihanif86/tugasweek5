@@ -21,22 +21,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mMessageEditText_name = (EditText) findViewById(R.id.nama);
+        mMessageEditText_alamat = (EditText) findViewById(R.id.alamat);
+        mMessageEditText_nohp = (EditText) findViewById(R.id.nohp);
     }
 
     public void launchSecondActivity(View view) {
         Log.d(LOG_TAG, "Button clicked!");
         Intent intent = new Intent(this, secondActivity.class);
         startActivity(intent);
-        mMessageEditText_name = (EditText) findViewById(R.id.nama);
         String message_name = mMessageEditText_name.getText().toString();
         intent.putExtra(EXTRA_MESSAGE_nama, message_name);
-        startActivity(intent);
-        mMessageEditText_alamat = (EditText) findViewById(R.id.alamat);
         String message_alamat = mMessageEditText_alamat.getText().toString();
         intent.putExtra(EXTRA_MESSAGE_alamat, message_alamat);
-        startActivity(intent);
-        mMessageEditText_nohp = (EditText) findViewById(R.id.nohp);
         String message_nohp = mMessageEditText_nohp.getText().toString();
         intent.putExtra(EXTRA_MESSAGE_nohp, message_nohp);
+
     }
 }
